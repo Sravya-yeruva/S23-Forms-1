@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <div class="mainD">
+    
+        <form>
+            <div>
+                <legend>Please Enter your Personal Details.</legend>
+                <fieldset>
+          <div>
+            <label for ="firstName">First Name:</label>
+            <input id="firstName" />
+          </div>
+          <div>
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" />
+          </div>
+          <div>
+            <label for="street">Street Address:</label>
+            <!-- <input id="street" /> -->
+             <textarea></textarea>
+            
+          </div>
+        </fieldset>
+          <div>
+            <label for="town">States:</label>
+             <select style="font-size:1.2rem; color:brown;">
+                <option>Select State</option>
+                <option>Mizoram</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <optgroup label="South Indian States">
+                <option>Arunachal Pradesh</option>
+                <option>Lucknow</option>
+                <option>Bihar</option>
+                <option>Goa</option>
+                <option>Chhattisgarh</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himacha Pradesh</option>
+            </optgroup>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+             </select>
+          </div>
+          <div>
+            <label for="post">Postcode/Zip:</label>
+            <input list="post" />
+            <datalist id="post">
+                <option>523331</option>
+                <option>523332</option>
+                <option>523333</option>
+                <option>523334</option>
+                <option>523335</option>
+                <option>523336</option>
+                <option>523337</option>
+            </datalist>
+          </div>
+          <div>
+            <label for="telephone">Telephone:</label>
+            <input id="telephone" />
+          </div>
+          <div>
+            <label for="mobile">Mobile:</label>
+            <input id="mobile" />
+          </div>
+          <div>
+            <label for="email">Email Address:</label>
+            <input id="email"/>
+          </div>
+          <div class="btn">
+          <button id="btn1" type="reset">Next</button>
+        </div>
+        </div>
+        </form>
+      </div>
+  </body>
+</html>

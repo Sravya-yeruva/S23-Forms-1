@@ -1,0 +1,27 @@
+.mainD{
+    border:5px solid black;
+    width:600px;
+    height:600px;
+    background-color:lightcoral;
+}
+
+label{
+    display: inline-block;
+    width:150px;
+}
+form Div{
+    margin:10px;
+    padding:10px;
+    font-size:20px;
+
+}
+.btn{
+    text-align:center;
+}
+#btn1{
+    background-color:lightgreen;
+    padding:10px;
+    width:100px;
+    border-radius:10px;
+    border:5px solid black;
+}
